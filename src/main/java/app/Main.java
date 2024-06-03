@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         DataProvider provider = new DataProvider();
-        DataHandler dataHandler = new DataHandler();
+        DataHandler dataHandler = new DataHandler<>();
 
         // Обробка масиву даних найменувань товарів
         String namesOutput = dataHandler.handleData(provider.getProductNames());
